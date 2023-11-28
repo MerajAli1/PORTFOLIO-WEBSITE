@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="main-content">
+    <header class="container header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image">
+                    <img src="img/pic2.jpg" alt="">
+                </div>
+            </div>
+            <div class="right-header">
+                <h1 class="name">
+                    Prof. Dr. <span>Abdul Waheed Bhutto</span>
+                    Pro Vice Chancellor
+                </h1>
+                <p>
+                    Prof. Dr. Abdul Waheed Bhutto is a distinguished academician and researcher, serving as Pro Vice
+                    Chancellor at Dawood University of Engineering and Technology. He has authored numerous publications
+                    and secured significant research grants, notably in the field of sustainable energy, renewable
+                    resources, and biomass utilization.
+                </p>
+                <div class="btn-con">
+                    <a href="" class="main-btn">
+                        <a class="download-btn" href="./CV/Prof Abdul Waheed Bhutto CV.pdf" download type="button"
+                            class="btn-text">Download CV</a>
+
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container about" id="about">
+            <div class="main-title">
+                <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
+            </div>
+            <div class="about-container">
+                <div class="left-about">
+                    <h4>Information About me</h4>
+                    <p>
+
+                        Prof. Dr. Abdul Waheed Bhutto is a distinguished academician and researcher, serving as Pro Vice
+                        Chancellor at Dawood University of Engineering and Technology. He has authored numerous
+                        publications and secured significant research grants, notably in the field of sustainable
+                        energy, renewable resources, and biomass utilization. He established the Biomass Conversion and
+                        Green Chemicals Recovery Technology laboratory, received Research Productivity Awards, and
+                        contributed extensively to academia and collaborations in higher education. Prof. Bhutto’s
+                        expertise and leadership have garnered recognition and contributed to advancements in the field.
+                        <br>
+
+                        His research focuses on the intersection of renewable energy and sustainable development, with a
+                        particular emphasis on the role of community-based initiatives. He is committed to helping
+                        communities achieve a more sustainable future through my work. <br>
+
+                        Beyond his academic pursuits, he’s a dedicated volunteer and believes strongly in the
+                        transformative power of education. If you are interested in discussing collaboration
+                        opportunities or research projects, please don’t hesitate to connect with him. He encourages to
+                        make a positive impact together! <br>
+                    </p>
+                    <div class="btn-con">
+                        <a href="#" class="main-btn">
+                            <a class="download-btn" href="./CV/Prof Abdul Waheed Bhutto CV.pdf" download
+                                class="btn-text">Download CV</a>
+                        </a>
+                    </div>
+                </div>
+                <div class="right-about">
+                    <div class="about-item">
+                        <div class="abt-text" onclick={researchArticle()}>
+                            <img width="100%" src="./img/pic1.jpg" alt="">
+                            <p class="large-text">30+</p>
+                            <p class="small-text">RESEARCH <br />ARTICLES</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="abt-text" onclick={bookAndPublication()}>
+                            <img width="100%" src="./img/pic2.jpg" alt="">
+                            <p class="large-text">6+</p>
+                            <p class="small-text">BOOK CHAPTERS AND <br /> OTHER PUBLICATIONS</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="abt-text" onclick={articlesAndNewspaper()}>
+                            <img width="100%" src="./img/pic3.jpg" alt="">
+                            <p class="large-text">12+</p>
+                            <p class="small-text">Articles in Newspapers <br />& Magazines</p>
+                        </div>
+                    </div>
+                    <!-- <div class="about-item">
+                        <div class="abt-text" onclick={Achievements()}>
+                            <img width="100%" src="./img/pic4.jpg" alt="">
+                            <p class="large-text">40+</p>
+                            <p class="small-text">Achievements</p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+       
+        <section class="container" id="blogs">
+            <h4 class="stat-title">Achievements</h4>
+            <h4 class="h4">Research Profile</h4>
+            <p class="h4">present</p>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h5>Prof Dr Abdul Waheed Bhutto is currently working <span> - Professor and Pro Vice
+                            Chancellor</span></h5>
+                    <p>
+                        Prof Dr Abdul Waheed Bhutto is currently working Professor and Pro Vice Chancellor at Dawood
+                        University of Engineering and Technology, Karachi. He has done his PhD on Modelling production
+                        of liquid fuels from Biomass from Mehran University of Engineering and Technology, Jamshoro. He
+                        successfully modelled the adoption of biomass-based ethanol as blending component of gasoline in
+                        Pakistan. He has also worked on increasing the performance and efficiency of biomass-based
+                        energy devices and appliances.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h5>Biomass Conversion and Green chemicals Recovery Technology laboratory<span> - at Dawood
+                            University of Engineering and Technology.</span></h5>
+                    <p>
+                        He established “Biomass Conversion and Green chemicals Recovery Technology laboratory” at Dawood
+                        University of Engineering and Technology, Karachi to focus on biomass conversion and
+                        applications
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h5>Supervising MS and PhD students<span> - MS and PhD students</span></h5>
+                    <p>
+                        He is currently supervising MS and PhD students in renewable energy, green chemistry, and
+                        sustainable development.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2021-2022</p>
+                    <h5> awarded with The National Research Program<span> - As Principal Investigator</span></h5>
+                    <p>
+                        As Principal Investigator, he has been awarded with The National Research Program for
+                        Universities (NRPU) grant awards (2021-2022), Higher Education Commission of Pakistan, amounting
+                        Rs. 6.86 million in 2022 to “Explore the viable strategy for commercial production of
+                        petrochemical precursors from lignocellulosic biomass”.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h5> Web of Science has credited<span> - with 1598 citation and H-Index</span></h5>
+                    <p>
+                        Web of Science has credited him for 45 publications (including 33 Publications from the Web of
+                        Science Core Collection) with 1598 citation and H-Index of 20 and verified reviews 29
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h5>Google Scholar research <span> </span></h5>
+                    <p>
+                        His Google Scholar research credentials are as under:
+                    </p>
+                    <table border="1">
+                        <tr>
+                            <td>Citations</td>
+                            <td>h-index</td>
+                            <td>i10-index</td>
+                        </tr>
+                        <tr>
+                            <td>2784 </td>
+                            <td>h-23 23</td>
+                            <td>34 31</td>
+                        </tr>
+                        <tr>
+                            <td>2251</td>
+                            <td>23</td>
+                            <td>31</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h5>Reviewer of Textbook & Monograph<span> - Writing Scheme (TMWS) of HEC</span></h5>
+                    <p>
+                        He is also reviewer of Textbook & Monograph Writing Scheme (TMWS) of HEC.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h5>Graphic Designer<span> - Brighton University</span></h5>
+                    <p>
+                        He is Reviewer of many ISI indexes international journals. The list includes.
+                    </p>
+                    <ul>
+                        <li>1. Wires Climate Change (John Wiley & Sons Publications, Impact Factor: 10.07)</li>
+                        <li>2. Utilities Policy (Elsevier Publication, Impact Factor: 3.247)</li>
+                        <li>3. Renewable & Sustainable Energy Reviews (Elsevier Publication, Impact Factor: 5.901)</li>
+                        <li>4. International Journal of Mining Science and Technology (Elsevier Publication)</li>
+                        <li>5. Clean Technologies and Environmental Policy (Springer Publication, Impact Factor: 1.934)
+                        </li>
+                        <li>6. Environmental Progress & Sustainable Energy (Wiley & Sons Publication, Impact Factor:
+                            1.403)
+                        </li>
+                        <li>7. Reviews in Chemical Engineering (Walter de Gruyter GmbH Publication, Impact Factor: 2.41)
+                        </li>
+                        <li>8. Waste and Biomass Valorization (Springer Publication, Impact Factor: 2.851)</li>
+                        <li>9. Biofuels, Bioproducts and Biorefining (John Wiley & Sons Publication, Impact Factor:
+                            4.528)
+                        </li>
+                        <li>10. Journal of Cleaner Production (Elsevier Publication, Impact Factor: 7.24)</li>
+                        <li>11. Energy & fuels (ACS Publication, Impact Factor: 3.24)</li>
+                        <li>12. International Journal of Coal Science & Technology (Springer Publication)</li>
+                        <li>13. Petroleum Science and Technology (0.33)</li>
+                        <li>14. International Journal of Coal Science & Technology</li>
+                        <li>15. Energy Sources Part B-Economics Planning and Policy</li>
+                        <li>16. Energy & fuels.</li>
+                        <li>17. Mitigation and Adaptation Strategies for Global Change</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2012 - 2016</p>
+                    <h5>won Research Productivity Award<span> - from Pakistan Council for Science and Technology
+                            (PCST)</span></h5>
+                    <p>
+                        He has won Research Productivity Award (RPA) from Pakistan Council for Science and Technology
+                        (PCST) from 2012 to 2016.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2012 up to 2020</p>
+                    <h5>Productive Scientists of Pakistan (PSP)<span> - published by Pakistan Council for
+                            Science and Technology</span></h5>
+                    <p>
+                        He was in list of Productive Scientists of Pakistan (PSP) published by Pakistan Council for
+                        Science and Technology since 2012 up to 2020.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h5>Delivered Keynote speeches<span> - in significant number of international and national
+                            Conferences</span></h5>
+                    <p>
+                        He has delivered Keynote speeches in significant number of international and national
+                        Conferences/workshops/seminars.
+                    </p>
+                </div>
+            </div>
+            <h4 class="h4">Academic Profile as Dean and Pro Vice Chancellor, DUET</h4>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h5>Increasing University own resources<span> -increasing University own resources from 10 % in FY
+                            2020-21 to 30% in FY
+                            2022-23</span></h5>
+                    <p>
+                        He is instrumental in increasing University own resources from 10 % in FY 2020-21 to 30% in FY
+                        2022-23. He is also instrumental in developing system for online fee collection from students.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h5>Initiatives of starting new BS./MS/PhD programs<span> -increased University intake strength
+                            from 500 students in undergraduate programs only in 2016</span></h5>
+                    <p>
+                        His initiatives of starting new BS./MS/PhD programs have increased University intake strength
+                        from 500 students in undergraduate programs only in 2016 to 1050 in undergraduates’ programs and
+                        150 in MS/PhD program for year 2022
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h5>Regularly organizing the meeting of statutory bodies of university<span>- Advanced Studies and
+                            Research Board, Academic Council, Syndicate and Senate.</span></h5>
+                    <p>
+                        He is instrumental in regularly organizing the meeting of statutory bodies of university that
+                        include Advanced Studies and Research Board, Academic Council, Syndicate and Senate.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h5>Leading Compliance committee for academic standards</h5>
+                    <p>Leading Compliance committee for academic standards for implementation of HEC policies and
+                        stablishing research laboratories.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h5>Leading the team to oversee image of the university<span> - develop sustainable and cordial
+                            relationship with corporate sector.</span></h5>
+                    <p>Leading the team to oversee image of the university, implement university’s growth strategies,
+                        and make initiatives to raise visibility, promote community engagement, integration and outreach
+                        and develop sustainable and cordial relationship with corporate sector.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h5>Convener of committee for the hiring of consulting firm</h5>
+                    <p>He was the convener of committee for the hiring of consulting firm for Design, Drawing and
+                        Detailed Supervision of building to be constructed under the PC-I.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h5>Participated in Capacity Building</h5>
+                    <p>Participated in Capacity Building Workshop for Vice Chancellors/Pro Vice Chancellors.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h5>Eight Convocations of University.</h5>
+                    <p>As chief Organizer successfully organized Eight Convocations of University.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h5> Organized 06 international conferences</h5>
+                    <p>As chief Organizer, Organized 06 international conferences/workshops.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h5>Supervised Undergraduate and postgraduate admissions for 2020-2022.</h5>
+                    <p>As convener of Admission committee successfully supervised Undergraduate and postgraduate
+                        admissions for 2020-2022.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h5> published University Prospectus</h5>
+                    <p>As convenor of prospectus committee published University Prospectus from last eight years.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h5>He headed the academic team</h5>
+                    <p>He headed the academic team to start BS programs in Computer Sciences, Cyber Security, Artificial
+                        Intelligence, Business Information Systems and Mathematics in DUET to take maximum utilizations
+                        the resources.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h5>Academic team to take the NOC from HEC</h5>
+                    <p>He headed the academic team to take the NOC from HEC and started for first time started
+                        postgraduate programs in university. Currently University is offering following MS and PhD
+                        programs. All these programs were started after taking NOC from HEC.
+                    </p>
+                    <table style="text-align: center; padding: 10px;" border="1">
+                        <tr>
+                            <th>PhD Programs</th>
+                            <th>MS Programs</th>
+                        </tr>
+                        <tr>
+                            <td>Chemical Engineering</td>
+                            <td>Computer System Engineering</td>
+                        </tr>
+                        <tr>
+                            <td>Chemical Engineering</td>
+                            <td>Computer System Engineering</td>
+                        </tr>
+                        <tr>
+                            <td>Electronics Engineering</td>
+                            <td>Industrial Engineering</td>
+                        </tr>
+                        <tr>
+                            <td>Electronics Engineering</td>
+                            <td>Industrial Engineering</td>
+                        </tr>
+                        <tr>
+                            <td>Metallurgy and Materials Engineering</td>
+                            <td>Industrial Engineering</td>
+                        </tr>
+                        <tr>
+                            <td>Metallurgy and Materials Engineering</td>
+                            <td>Chemistry & Mathematics</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h5>Introducing Outcome based education (OBE) in Dawood University</h5>
+                    <p>He was instrumental in introducing Outcome based education (OBE) in Dawood University. He
+                        organized significant numbers of workshops and training for the faculty inviting local as well
+                        as foreign experts to training University Faculty. He initiates help two department in secured
+                        level-II accreditation from PEC while other departments are also expected to secured Level-II
+                        accreditation from PEC.
+                    </p>
+                </div>
+            </div>
+            <h4 class="h4">Chairperson of Chemical Engineering Department</h4>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h5>Appointed as Assistant Professor, Department of Chemical Engineering</h5>
+                    <p>He was appointed as Assistant Professor, Department of Chemical Engineering, DCET, Karachi 2004.
+                        When he was appointed as Assistant Professor, Department was facing accreditation problem
+                        because of shortage of Laboratories. He was instrumental in establishing five new Laboratories
+                        in Department of Chemical Engineering to address the PEC concerns.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h5>In 2010 he was assigned additional charge of Chairperson</h5>
+                    <p>In 2010 he was assigned additional charge of Chairperson, Department of Chemical Engineering,
+                        DUET. In his capacity of chairperson, department regularly organized seminars and workshops
+                        including Symposium on “Expanding Frontier and Advancing Environs of Chemical Engineering in
+                        Pakistan” held on Sept 17, 2016, at Pearl Continental Hotel, Karachi.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h5>Successful accredited his BE</h5>
+                    <p>He successful accredited his BE (Chemical Engineering) program from PEC.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h5>Member of Member National Curriculum Revision Committee (NCRC)</h5>
+                    <p>He has been the member of Member National Curriculum Revision Committee (NCRC) in Chemical
+                        Engineering, Higher Education Commission, Government of Pakistan. (2007 -2019).
+                    </p>
+                </div>
+            </div>
+            <h4 class="h4">AWARDS</h4>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h5>Research Productivity Award (RPA) 2015 from Pakistan Council for Science and Technology (PCST),
+                        Islamabad.</h5>
+
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h5>Research Productivity Award (RPA) 2014 from PCST, Islamabad</h5>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h5>Research Productivity Award (RPA) 2013 from PCST, Islamabad.</h5>
+
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h5> Research Productivity Award (RPA) 2012 from PCST, Islamabad.</h5>
+
+                </div>
+            </div>
+        </section>
+        <section class="container contact" id="contact">
+            <div class="contact-container">
+                <div class="main-title">
+                    <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
+                </div>
+                <div class="contact-content-con">
+                    <div class="left-contact">
+                        <h4>Contact me here</h4>
+                        <p>
+                            My expertise includes proficiency in the latest web development technologies such as HTML,
+                            CSS, JavaScript, and PHP, as well as experience working with popular CMS platforms such as
+                            WordPress, Drupal, and Joomla. I am skilled in developing both front-end and back-end
+                            solutions, ensuring that your website looks great and functions flawlessly.
+
+                        </p>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Location</span>
+                                </div>
+                                <p>
+                                    : Karachi, Pakistan
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>Email</span>
+                                </div>
+                                <p>
+                                    <span>: engribrahimkhanokz@gmail.com</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span>Education</span>
+                                </div>
+                                <p>
+                                    <span>: Computer System Engineer</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span>Mobile Number</span>
+                                </div>
+                                <p>
+                                    <span>: +923335391919</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-globe-africa"></i>
+                                    <span>Languages</span>
+                                </div>
+                                <p>
+                                    <span>: Urdu, English, Spanish</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-icons">
+                            <div class="contact-icon">
+                                <a href="www.facebook.com" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-contact">
+                        <form action="" class="contact-form">
+                            <div class="input-control i-c-2">
+                                <input type="text" required placeholder="YOUR NAME">
+                                <input type="email" required placeholder="YOUR EMAIL">
+                            </div>
+                            <div class="input-control">
+                                <input type="text" required placeholder="ENTER SUBJECT">
+                            </div>
+                            <div class="input-control">
+                                <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                            </div>
+                            <div class="submit-btn">
+                                <a href="#" class="main-btn">
+                                    <a class="download-btn" href="./CV/Prof Abdul Waheed Bhutto CV.pdf" download=""
+                                        class="btn-text">Download CV</a>
+
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="controls">
+        <div class="control active-btn" data-id="home">
+            <i class="fas fa-home"></i>
+        </div>
+        <div class="control" data-id="about">
+            <i class="fas fa-user"></i>
+        </div>
+
+        <div class="control" data-id="blogs">
+            <i class="far fa-newspaper"></i>
+        </div>
+        <div class="control" data-id="contact">
+            <i class="fas fa-envelope-open"></i>
+        </div>
+        <div class="control" data-id="">
+            <a href="https://www.webofscience.com/wos/author/record/869700"><i class="fa-solid fa-book-atlas"></i></a>
+        </div>
+        <div class="control" data-id="">
+            <a style="font-size: 10px;" href="https://orcid.org/0000-0002-3774-2214">ORCID</a>
+        </div>
+    </div>
+  
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
+       
+    </div>
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
